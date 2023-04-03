@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1366px) {
+  .quick-menu {
+    position: absolute;
+    top: 45px;
+  right: 140px;
+    border-radius: var(--br-5xs);
+    background-color: rgba(191, 222, 240, 0.35);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-5xs);
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-base);
+    font-size: var(--font-size-sm);
+  }
+
+  .menu {
+    top: 105px;
+    right: 130px;
+    display: flex;
+    flex-direction: row;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+
+  <section class="frami-parent" data-animate-on-scroll>
+      <div class="frami-group">
+        <div class="frami-container">
+          <img class="frami-child" alt="" src="./public/frame-54.svg" />
+          <div class="pay-an-parent">
+            <b class="pay-an-invoice">Pay an invoice</b>
+            <div class="pay-an-container">
+              <p class="easily-online">Pay an invoice quickly and</p>
+              <p class="easily-online">easily online.</p>
+            </div>
+          </div>
+        </div>
+        <div class="frame-div">
+          <img class="frami-child" alt="" src="./public/frame-57.svg" />
+          <div class="pay-an-parent">
+            <b class="pay-an-invoice">Renew a domain name</b>
+            <div class="pay-an-container">
+              Renew an existing domain name you already have with us.
+            </div>
+          </div>
+        </div>
+        <div class="frame-div">
+          <img class="frami-child" alt="" src="./public/frame-56.svg" />
+          <div class="pay-an-parent">
+            <b class="pay-an-invoice">Transfer to us</b>
+            <div class="pay-an-container">
+              Transfer your existing domain name from your current provider to
+              us.
+            </div>
+          </div>
+        </div>
+        <div class="frame-div">
+          <img class="frami-child" alt="" src="./public/frame-55.svg" />
+          <div class="pay-an-parent">
+            <b class="pay-an-invoice">Service status</b>
+            <div class="pay-an-container">
+              The best value domain names with no hidden fees.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
