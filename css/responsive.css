@@ -1,10 +1,17 @@
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1290px) {
 .navbar{
 
   display: none;
 }
 hr.dropdown-divider {
   display: none;
+}
+.main-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  color: #122C4B;
+  padding: 0;
 }
 }
 
